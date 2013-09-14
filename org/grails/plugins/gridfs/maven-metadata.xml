@@ -3,11 +3,9 @@
   <groupId>org.grails.plugins</groupId>
   <artifactId>gridfs</artifactId>
   <versioning>
-    <release>0.1.2</release>
     <versions>
-      <version>0.1.2</version>
       <version>0.2-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20130911084238</lastUpdated>
+    <lastUpdated>20130914065029</lastUpdated>
   </versioning>
 </metadata>
