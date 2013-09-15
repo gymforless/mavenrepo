@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>quartz</artifactId>
+  <versioning>
+    <release>1.0-RC10-M</release>
+    <versions>
+      <version>1.0-RC10-M</version>
+    </versions>
+    <lastUpdated>20130915162600</lastUpdated>
+  </versioning>
+</metadata>

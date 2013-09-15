@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.grails.plugins</groupId>
-  <artifactId>gridfs</artifactId>
-  <version>0.1.2</version>
+  <artifactId>quartz</artifactId>
+  <version>1.0-RC10-M</version>
   <packaging>zip</packaging>
 </project>
