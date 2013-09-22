@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>spring-security-acl</artifactId>
+  <version>1.2-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20130922.084038</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20130922084038</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>zip</extension>
+        <value>1.2-20130922.084038-1</value>
+        <updated>20130922084038</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.2-20130922.084038-1</value>
+        <updated>20130922084038</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
