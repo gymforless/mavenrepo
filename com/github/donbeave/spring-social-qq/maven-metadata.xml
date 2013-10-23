@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.donbeave</groupId>
+  <artifactId>spring-social-qq</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0.BUILD-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20131023072213</lastUpdated>
+  </versioning>
+</metadata>

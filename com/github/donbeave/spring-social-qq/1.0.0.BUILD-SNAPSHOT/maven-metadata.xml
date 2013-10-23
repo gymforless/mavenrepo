@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.github.donbeave</groupId>
+  <artifactId>spring-social-qq</artifactId>
+  <version>1.0.0.BUILD-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20131023.072213</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20131023072213</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0.0.BUILD-20131023.072213-1</value>
+        <updated>20131023072213</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.0.BUILD-20131023.072213-1</value>
+        <updated>20131023072213</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
