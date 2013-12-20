@@ -1,9 +1,50 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.grails.plugins</groupId>
   <artifactId>gwt</artifactId>
-  <version>0.9.4</version>
   <packaging>zip</packaging>
+  <version>0.9.4</version>
+  <name>The Google Web Toolkit for Grails.</name>
+  <description>Incorporates GWT into Grails. In particular, GWT host pages can be
+GSPs and standard Grails services can be used to handle client RPC
+requests.
+</description>
+  <url>http://simplicityitself.github.com/grails-gwt/guide/</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <issueManagement>
+    <system>Github</system>
+    <url>https://github.com/simplicityitself/grails-gwt/issues</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/simplicityitself/grails-gwt</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.grails.plugins</groupId>
+      <artifactId>resources</artifactId>
+      <version>1.2</version>
+      <type>zip</type>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>xml-apis</groupId>
+          <artifactId>xml-apis</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>xml-apis</groupId>
+          <artifactId>xmlParserAPIs</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>xerces</groupId>
+          <artifactId>xmlParserAPIs</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
 </project>
