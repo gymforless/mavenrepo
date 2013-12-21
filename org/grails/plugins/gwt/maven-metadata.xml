@@ -3,11 +3,10 @@
   <groupId>org.grails.plugins</groupId>
   <artifactId>gwt</artifactId>
   <versioning>
-    <release>0.9.4</release>
+    <release>0.9.4-MVN</release>
     <versions>
-      <version>0.9.3</version>
-      <version>0.9.4</version>
+      <version>0.9.4-MVN</version>
     </versions>
-    <lastUpdated>20131220040554</lastUpdated>
+    <lastUpdated>20131221150700</lastUpdated>
   </versioning>
 </metadata>

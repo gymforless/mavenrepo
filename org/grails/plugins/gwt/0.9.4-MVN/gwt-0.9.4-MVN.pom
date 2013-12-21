@@ -4,7 +4,7 @@
   <groupId>org.grails.plugins</groupId>
   <artifactId>gwt</artifactId>
   <packaging>zip</packaging>
-  <version>0.9.4</version>
+  <version>0.9.4-MVN</version>
   <name>The Google Web Toolkit for Grails.</name>
   <description>Incorporates GWT into Grails. In particular, GWT host pages can be
 GSPs and standard Grails services can be used to handle client RPC
