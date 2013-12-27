@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.mandrillapp.wrapper.lutung</groupId>
+  <artifactId>lutung</artifactId>
+  <version>0.0.3-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20131227.124456</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20131227124456</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.3-20131227.124456-1</value>
+        <updated>20131227124456</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.3-20131227.124456-1</value>
+        <updated>20131227124456</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
