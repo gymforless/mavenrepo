@@ -3,10 +3,11 @@
   <groupId>org.grails.plugins</groupId>
   <artifactId>sitemapper</artifactId>
   <versioning>
-    <release>0.7.1.2</release>
+    <release>0.8</release>
     <versions>
       <version>0.7.1.2</version>
+      <version>0.8</version>
     </versions>
-    <lastUpdated>20130910125256</lastUpdated>
+    <lastUpdated>20140228063022</lastUpdated>
   </versioning>
 </metadata>
