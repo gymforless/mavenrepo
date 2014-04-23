@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>sitemapper</artifactId>
+  <packaging>zip</packaging>
+  <version>0.8.1</version>
+  <name>Sitemapper</name>
+  <description>Autogeneration of sitemaps, see sitemaps.org for more information about sitemaps.</description>
+  <url>http://grails.org/plugin/sitemapper</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Kim A. Betti, Alexey Zhokhov</name>
+      <email>kim@developer-b.com</email>
+    </developer>
+    <developer>
+      <name>Kim A. Betti</name>
+      <email>kim@developer-b.com</email>
+    </developer>
+    <developer>
+      <name>Alexey Zhokhov</name>
+      <email>donbeave@gmail.com</email>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>GITHUB</system>
+    <url>https://github.com/donbeave/grails-sitemapper/issues</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/donbeave/grails-sitemapper/</url>
+  </scm>
+  <dependencies />
+</project>
