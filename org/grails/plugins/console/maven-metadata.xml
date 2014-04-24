@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>console</artifactId>
+  <versioning>
+    <release>1.3.1-AP</release>
+    <versions>
+      <version>1.3.1-AP</version>
+    </versions>
+    <lastUpdated>20140424160453</lastUpdated>
+  </versioning>
+</metadata>
