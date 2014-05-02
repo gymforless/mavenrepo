@@ -60,7 +60,7 @@ into existing applications and a host of utility functions to make things like "
     <dependency>
       <groupId>org.grails.plugins</groupId>
       <artifactId>codenarc</artifactId>
-      <version>0.20</version>
+      <version>0.21</version>
       <type>zip</type>
       <scope>compile</scope>
     </dependency>
