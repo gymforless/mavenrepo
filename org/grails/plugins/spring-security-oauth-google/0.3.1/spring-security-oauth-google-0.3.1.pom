@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>spring-security-oauth-google</artifactId>
+  <packaging>zip</packaging>
+  <version>0.3.1</version>
+  <name>Google for Spring Security OAuth plugin</name>
+  <description>Integrate [Google|http://www.google.com] to [Spring Security OAuth plugin|http://grails.org/plugin/spring-security-oauth].
+</description>
+  <url>http://grails.org/plugin/spring-security-oauth-google</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Mihai Cazacu, Enrico Comiti, Alexey Zhokhov</name>
+      <email>donbeave@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Mihai Cazacu</name>
+      <email>cazacugmihai@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Enrico Comiti</name>
+      <email>enrico@comiti.name</email>
+    </developer>
+    <developer>
+      <name>Alexey Zhokhov</name>
+      <email>donbeave@gmail.com</email>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>GITHUB</system>
+    <url>https://github.com/donbeave/grails-spring-security-oauth-google/issues</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/donbeave/grails-spring-security-oauth-google</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.grails.plugins</groupId>
+      <artifactId>spring-security-oauth</artifactId>
+      <version>2.1.0-RC2</version>
+      <type>zip</type>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
