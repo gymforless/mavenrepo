@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>elasticsearch</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.2.x-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20140503171330</lastUpdated>
+  </versioning>
+</metadata>
