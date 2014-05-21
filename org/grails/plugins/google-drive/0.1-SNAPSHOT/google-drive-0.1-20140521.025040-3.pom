@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>google-drive</artifactId>
+  <packaging>zip</packaging>
+  <version>0.1-SNAPSHOT</version>
+  <name>Google Drive Plugin</name>
+  <description>Brief summary/description of the plugin.
+</description>
+  <url>http://grails.org/plugin/google-drive</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Alexey Zhokhov</name>
+      <email>donbeave@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Alexey Zhokhov</name>
+      <email>donbeave@gmail.com</email>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>GITHUB</system>
+    <url>https://github.com/donbeave/grails-google-drive/issues</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/donbeave/grails-google-drive</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.apis</groupId>
+      <artifactId>google-api-services-drive</artifactId>
+      <version>v2-rev123-1.18.0-rc</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.http-client</groupId>
+      <artifactId>google-http-client-jackson2</artifactId>
+      <version>1.18.0-rc</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>httpclient</artifactId>
+        </exclusion>
+        <exclusion>
+          <artifactId>httpcore</artifactId>
+        </exclusion>
+        <exclusion>
+          <artifactId>commons-logging</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.google.oauth-client</groupId>
+      <artifactId>google-oauth-client-jetty</artifactId>
+      <version>1.18.0-rc</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.tika</groupId>
+      <artifactId>tika-core</artifactId>
+      <version>1.5</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>xercesImpl</artifactId>
+        </exclusion>
+        <exclusion>
+          <artifactId>xmlParserAPIs</artifactId>
+        </exclusion>
+        <exclusion>
+          <artifactId>xml-apis</artifactId>
+        </exclusion>
+        <exclusion>
+          <artifactId>groovy</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>
