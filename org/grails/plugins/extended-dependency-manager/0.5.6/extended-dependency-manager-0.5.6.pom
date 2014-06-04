@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>extended-dependency-manager</artifactId>
+  <packaging>zip</packaging>
+  <version>0.5.6</version>
+  <name>Extended Dependency Manager Plugin</name>
+  <description>    Provides a simple API in the Grails scripting environment to resolve new libraries from the remote repositories
+    and add them to the various classpaths.
+</description>
+  <url>http://grails.org/plugin/dependency-manager</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <organization>
+    <name>Simplicity Itself</name>
+    <url>http://www.simplicityitself.com/</url>
+  </organization>
+  <developers>
+    <developer>
+      <name>David Dawson</name>
+      <email>david.dawson@simplicityitself.com</email>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/simplicityitself/grails-dependency-manager/issues</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/simplicityitself/grails-dependency-manager</url>
+  </scm>
+  <dependencies />
+</project>
