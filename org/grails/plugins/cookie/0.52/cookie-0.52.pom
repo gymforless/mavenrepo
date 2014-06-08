@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>cookie</artifactId>
+  <packaging>zip</packaging>
+  <version>0.52</version>
+  <name>Cookie Plugin</name>
+  <description>Makes dealing with cookies easy. Provides an injectable service and expands request with methods to easily get, set, and delete cookies with one line</description>
+  <url>https://github.com/dalew75/grails-cookie</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Dale Wiggins</name>
+      <email>dale@dalew.com</email>
+    </developer>
+    <developer>
+      <name>Dale Wiggins</name>
+      <email>dale@dalew.com</email>
+    </developer>
+    <developer>
+      <name>Sergey Ponomarev</name>
+      <email>stokito@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Alexey Zhokhov</name>
+      <email>donbeave@gmail.com</email>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>GITHUB</system>
+    <url>https://github.com/dalew75/grails-cookie/issues</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/dalew75/grails-cookie</url>
+  </scm>
+  <dependencies />
+</project>
