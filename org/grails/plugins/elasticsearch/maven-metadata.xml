@@ -4,10 +4,8 @@
   <artifactId>elasticsearch</artifactId>
   <versioning>
     <versions>
-      <version>0.0.2.x-SNAPSHOT</version>
-      <version>0.0.3.x-SNAPSHOT</version>
       <version>0.0.3.x-donbeave-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20140612074012</lastUpdated>
+    <lastUpdated>20140612074757</lastUpdated>
   </versioning>
 </metadata>
