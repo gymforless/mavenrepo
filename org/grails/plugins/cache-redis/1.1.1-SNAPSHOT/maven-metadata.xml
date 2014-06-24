@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>cache-redis</artifactId>
+  <version>1.1.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20140624.164604</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20140624164604</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>zip</extension>
+        <value>1.1.1-20140624.164604-1</value>
+        <updated>20140624164604</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.1.1-20140624.164604-1</value>
+        <updated>20140624164604</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
