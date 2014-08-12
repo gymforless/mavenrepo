@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>console-charts</artifactId>
+  <packaging>zip</packaging>
+  <version>0.1-SNAPSHOT</version>
+  <name>Console Charts Plugin</name>
+  <description>A web-based console plugin for drawing [Google Charts|https://developers.google.com/chart/] direct by data from SQL queries
+</description>
+  <url>http://grails.org/plugin/console-charts</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <organization>
+    <name>Polusharie</name>
+    <url>http://www.polusharie.com</url>
+  </organization>
+  <developers>
+    <developer>
+      <name>Alexey Zhokhov</name>
+      <email>donbeave@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Alexey Zhokhov</name>
+      <email>donbeave@gmail.com</email>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>GITHUB</system>
+    <url>https://github.com/donbeave/grails-console-charts/issues</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/donbeave/grails-console-charts</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.jcraft</groupId>
+      <artifactId>jsch</artifactId>
+      <version>0.1.51</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.grails.plugins</groupId>
+      <artifactId>console</artifactId>
+      <version>1.4.4</version>
+      <type>zip</type>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
